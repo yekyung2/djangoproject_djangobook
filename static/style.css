@@ -1,9 +1,8 @@
-/* html{
-    margin-top: 50px;
+html{
     background-color: white;
     color: black;
     font-family: 'Noto Sans';
-} */
+}
 
 /* .main{
     text-align: center;
@@ -11,8 +10,10 @@
 
 h1{
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 body{
     margin-top: 4rem;
 }
+
