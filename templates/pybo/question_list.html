@@ -6,7 +6,7 @@
 />
 <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
 
-<h1>Pybo | Django에 대한 질문 게시판 ✋</h1>
+<h1> 👋 Hey, 자유롭게 물어보세요! 👋  </h1>
 <div class="container my-3">
   <table class="table">
     <thead>
@@ -34,7 +34,7 @@
       {% endif %}
     </tbody>
   </table>
-
+  <!-- 페이징처리 시작 -->
   <ul class="pagination justify-content-center">
     <!-- 이전페이지 -->
     {% if question_list.has_previous %}
